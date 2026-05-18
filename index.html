@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タスク管理ボード</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">タスク管理ボード</h1>
+  </header>
+
+  <main class="main">
+    <section class="board" id="board" aria-label="カンバンボード">
+      <!-- 列は JavaScript で生成 -->
+    </section>
+
+    <footer class="board-footer">
+      <button type="button" id="add-column-btn" class="btn btn--add-column">
+        ＋ 列を追加
+      </button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
